@@ -1,0 +1,18 @@
+.dev-card {
+  width: 300px;
+  padding: 30px;
+  background-color: rgb(128, 255, 249);
+  border-radius: 20px;
+  border: 2px dashed #fffea8;
+  margin-bottom: 30px;
+  transition: 0.5s;
+}
+
+.dev-card:last-child {
+  margin-bottom: 0px;
+}
+
+.dev-card:hover {
+  filter: saturate(30%);
+  border: none;
+}
